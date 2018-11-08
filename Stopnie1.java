@@ -7,8 +7,9 @@ public class Stopnie1 {
 	public static void main(String[] args) {
 
 		Scanner s = new Scanner(System.in);
-		double liczba = s.nextDouble();
 		System.out.println("Wprowadz liczbe: ");
+		int liczba = s.nextInt();
+		
 		
 		double c = (liczba-32)/1.8;
 		
